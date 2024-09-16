@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         {
           rel: "icon",
           type: "image/x-icon",
-          href: "/GitHubPagesSample/favicon.ico",
+          href: "/vr_bar_hurukabu/favicon.ico",
         },
       ],
     },
