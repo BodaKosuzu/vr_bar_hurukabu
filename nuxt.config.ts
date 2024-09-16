@@ -1,8 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   app: {
-    baseURL: '/vr_bar_hurukabu/'
-  }
-})
+    baseURL: "/vr_bar_hurukabu/",
+    head: {
+      link: [
+        {
+          rel: "icon",
+          type: "image/x-icon",
+          href: "/GitHubPagesSample/favicon.ico",
+        },
+      ],
+    },
+  },
+});
